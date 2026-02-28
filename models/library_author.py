@@ -4,8 +4,8 @@ class LibraryAuthor(models.Model):
     _name = 'library.author'
     _description = 'Library Author'
 
-name = fields.Char(string='Author Name')
-total_books = fields.Integer(string='Total Books')
+    name = fields.Char(string='Author Name')
+    total_books = fields.Integer(string='Total Books')
 
 def update_total_books(self):
     for author in self:
