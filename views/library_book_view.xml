@@ -87,6 +87,17 @@
         </record>
     </data>
 
+        <!-- WIZARD DISPLAYING TOTAL BOOKS IN CATEGORY -->
+        <!-- <record id="action_total_books_in_category_wizard" model="ir.actions.act_window">
+            <field name="name">Total Books in Category Wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="target">new</field>
+            <field name="res_model">library.book</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_action_total_books_in_category_wizard"/>
+        </record> -->
+
     <data>
         <record id="view_library_book_form_inherit" model="ir.ui.view">
             <field name="name">library.book.form.inherit</field>
