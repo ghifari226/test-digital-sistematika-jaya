@@ -95,7 +95,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//sheet" position="before">
                     <button name="compute_total_in_category" class="oe_stat_button" icon="fa-book" type="object">
-                        <field name="total_books_in_category" widget="statinfo" string="Total Books in Category"/>
+                        <field name="total_books_in_category" widget="statinfo" string=" Total Books in This Category"/>
                     </button>
                 </xpath>
                 <xpath expr="//field[@name='price']" position="after">
