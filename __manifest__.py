@@ -4,7 +4,8 @@
     'depends': ['base'],
 
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'views/library_book_view.xml'
     ],
     
     'installable': True,
